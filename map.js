@@ -23,8 +23,6 @@ const mapResults = nums.map(multByTwo);
 console.log(mapResults);
 
 
-
-
 // Simplified w/ map()
 
 const simplified = nums.map(function (num) { return num * 2 });
@@ -56,3 +54,5 @@ const students = [
   },
 ];
 
+const studentsWithIds = students.map(student =>[student.name, student.id]);
+console.log(studentsWithIds);
